@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- HTML for Switch Theme Exercise -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<TITLE>Arthur Graham Web Developer</TITLE>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/scrollspy.js"></script> <!--Scrollspy section-->
+</head>
+	
+<!--Start of Section 1-->
+<body data-spy="scroll" data-target=".navbar" data-offset="50"> <!--Scrollspy code-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="fa fa-angle-double-up"></i></button> <!--scroll to top button-->
+
+<div class="section_1" id="s1">
+	<div class="header">			
+		<header>		
+			<nav class="navbar"> <!--Scrollspy code-->
+				<div class="container-fluid" id="nav">
+					<div class="row">	
+						<div class="col col-md-8" id="myNavbar">
+							<ul class="header-nav">
+								<li><a href="#s1">Home</a></li>
+								<li><a href="#s2">About Me</a></li>
+								<!--<li><a href="#">Sevices</a></li>-->
+								<li><a href="#s3">Projects</a></li>
+								<li><a href="#s4">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col-6 col-md-4 text-right" id="logo">
+							<p>Arthur Graham</p>
+						</div> 
+					</div>
+					<!--Logo Name go here-->
+					
+				</div> <!--Div for container-fluid-->
+			</nav>
+		</header>
+	</div> <!--Div for header-->
+<!--Portrait -->
+	<div class="center-block" id="portrait">
+		<img src="img/PortraitSquare.jpg" class="img-responsive img-circle" alt="portrait">
+	</div>
+<!--Main Title-->
+	<div class="col-md-6 col-md-offset-3" id="title">
+		<h1>Digital Design Portfolio</h1>
+	</div>
+<!--Work With Me button -->
+	<div class="col-md-2 col-md-offset-5" id="button">
+ 		<a href="#s4" class="button" >WORK WITH ME</a>  			
+ 	</div>
+</div> <!--Close Section 1-->
+	
+<!-- Start of Section 2-->
+<div class="section_2" id="s2">
+  <h1>About Me</h1>
+  	<p>I am a front-end developer and designer wih a background in Architecture and photography. My training background is in full stack web development. I design and create fully responsive websites with CSS, PHP and Javascript.
+
+  	Lorem ipsum dolor sit amet, et sea apeirian recteque, eum veri explicari comprehensam ea, te iisque docendi efficiendi mea. Corpora sapientem et duo, per in populo habemus, qui ei nonumy deleniti constituto. Feugait dolores quaerendum ex eos, et vel simul commodo. Choro dissentiet ius eu, enim aperiri deserunt cu nec. Virtute mentitum facilisi no mei, sed alia eros prompta id. Ei tation nostro menandri eos, invenire voluptatum eu eam, per natum nemore eu.
+
+	An tale aeterno corpora mel, ne sed duis alienum inimicus. Timeam epicurei invenire te sea, cu qui modo saepe. Ius labore intellegam intellegebat id, cu ius omnium intellegam. No duo laoreet legendos. Partiendo expetenda corrumpit vis ei, mei sonet suavitate ad.
+
+	Ei sonet virtute mediocrem vis, an posse legimus adolescens sed. Cum graeci facilisis eu. Usu ea tibique imperdiet, omnis expetendis argumentum qui id. Duo dicant nemore putant an. Sed graeco quodsi molestie ad, in commodo nostrum democritum usu, ne impedit consequuntur quo.
+
+	Vim eros denique detracto ad, cu hinc clita ceteros sit. Lorem assueverit usu ne, malorum appareat intellegat vis no. Aperiri minimum ponderum sea ei. Movet necessitatibus ex sed. Te sed agam veri justo, tota dolorem vivendum ne vis.
+
+	Id quis graeco oporteat mel, graecis prodesset ut vim, fugit labores no sed. Vix et soleat suscipit iudicabit, ad labore utamur duo. Et est tritani eripuit, ut mel decore adipisci oportere. Mel an illum augue, nec error adolescens eu.</p>
+</div> <!--Section 2 closing-->
+
+<!--Section 3-->
+<div class="section_3" id="s3">
+	<h1>Projects</h1>
+  		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div> <!--close section 3-->
+
+<!--Section 4-->
+<div class="section_4" id="s4">
+	<h1>Say Hello</h1>
+  		<form class="form-horizontal">
+			<div class="form-group">
+				<input type="text" class="form-control" id="InputName" placeholder="Name*"> 
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="InputEmail" placeholder="Email@domain.com*"> 
+			</div> 						
+			<div class="form-group">
+				<input type="text" class="form-control" id="InputTelephone" placeholder="Telephone"> 
+			</div> 
+	   		<div class="form-group">
+  				<textarea class="form-control" id="InputMessage" rows="3" placeholder="Message*"></textarea>
+			</div>	
+			<div class="text-center">
+				<button type="button" class="btn btn-primary" id= "submitbutton">Submit</button>
+			</div>
+ 		</form>
+ 		<p>email: agrahamwk@gmail.com</p>
+		<p>phone: 07949 094261</p>
+
+	<a href="#" class="social-icon facebook" img src="img/Facebook.png"></a>
+	<a href="#" class="fa fa-facebook"></a>
+</div> <!--close section 4-->
+
+<div class="footer">
+	<footer>
+		<p>made by Arthur Graham ©2017</p>
+	</footer>
+</div>
+
+</body>
+</html>
